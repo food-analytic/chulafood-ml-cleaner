@@ -52,7 +52,9 @@
    
    - You could speed up the training by specifying `--batch_size` or `-b` and set it to the largest number you can use without an error.
    
-   - If you have trained the model on that dataset once but you want to rerun the experiment for some reasons, such as trying with the new `low_threshold` and `high_threshold`,
+   - `low_threshold` and `high_threshold` can be adjusted by specifying `-lt` and `-ht`.
+   
+   - If you have trained the model on that dataset but want to rerun the experiment for some reasons, such as trying with the new `low_threshold` and `high_threshold`,
    you can specify `-m True` to load the trained model or `-p True` to load the saved prediction.
 
 6) Check the prediction. The model is not perfect anyway!
