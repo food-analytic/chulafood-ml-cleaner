@@ -26,13 +26,13 @@
     ```
   
   
-3) Run `prepare_folder` to create `train` and `test` folders.
+3) Run `prepare_folder.py` to create `train` and `test` folders.
 
    ```shell
    python prepare_folder.py -n <YOUR_SET_NAME>
    ```
    
-   where `<YOUR_SET_NAME>` must exactly match with the name of a dataset you have placed on `data` folder.
+   where `<YOUR_SET_NAME>` must exactly match with the name of a dataset you have placed on folder `data`.
 
 
 4) For each class in the dataset, move some amount of cleaned data (e.g., 20) from folder `test` to folder `train`.
