@@ -18,7 +18,7 @@ def main(args):
     test_path = os.path.join(data_path, "test")
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    if device == "cpu":
+    if not torch.cuda.is_available():
         warnings.warn("CUDA is unavailable. Running on CPU", UserWarning)
 
     config = {
