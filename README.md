@@ -42,7 +42,7 @@
    The number of training data per class must be consistent across the dataset.
   
   
-5) Run `run_cleaner.py` to bake a new model and get tedious stuffs done.
+5) Run `run_cleaner.py` to bake a new model and get tedious stuff done.
    
    Folders `clean`, `suspected`, and `trash` will be created on `data/<YOUR_SET_NAME>`.
 
@@ -50,7 +50,7 @@
    python run_cleaner.py -n <YOUR_SET_NAME>
    ```
    
-   - You could speedup the training by specify `--batch_size` or `-b` and set it to the largest number you can use without an error.
+   - You could speed up the training by specifying `--batch_size` or `-b` and set it to the largest number you can use without an error.
    
    - If you have trained the model on that dataset once but you want to rerun the experiment for some reasons, such as trying with the new `low_threshold` and `high_threshold`,
    you can specify `-m True` to load the trained model or `-p True` to load the saved prediction.
