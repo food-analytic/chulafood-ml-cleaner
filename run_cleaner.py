@@ -101,11 +101,11 @@ def main(args):
             )
 
     for label in df_pred.label.unique():
-        shutil.copytree(
-            os.path.join(train_path, label),
-            os.path.join(clean_path, label),
-            dirs_exist_ok=True,
-        )
+        for filename in os.listdir(os.path.join(train_path, label)):
+            shutil.copy(
+                os.path.join(train_path, label, filename),
+                os.path.join(clean_path, label, filename),
+            )
 
     df_summary = pd.DataFrame(
         [
