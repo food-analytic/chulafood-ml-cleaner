@@ -51,8 +51,8 @@ def get_data_loader(config):
         print(
             "Found imbalanced training data. The sample size per class of the training set must be equal."
         )
-        for index, count in enumerate(count_per_class):
-            print(f"{train_dataset.classes[index]}: {count} images")
+        for label in train_dataset.classes:
+            print(f"{label}: {count_per_class[train_dataset.class_to_idx[label]]} images")
         raise RuntimeError(
             "Training data is imbalanced. See the above message for details."
         )
