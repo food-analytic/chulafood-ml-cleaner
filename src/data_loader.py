@@ -49,7 +49,7 @@ def get_data_loader(config):
     count_per_class = pd.Series(train_dataset.targets).value_counts()
     if len(count_per_class.unique()) > 1:
         print(
-            "Found imbalance training data! The sample size per class of the training set must be equal."
+            "Found imbalanced training data. The sample size per class of the training set must be equal."
         )
         for index, count in enumerate(count_per_class):
             print(f"{train_dataset.classes[index]}: {count} images")
