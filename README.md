@@ -4,7 +4,7 @@
 
 ## Instruction
 
-1) Install required packages and dependencies
+1) Install required packages and dependencies.
 
     ```shell
     pip install -r requirements.txt
