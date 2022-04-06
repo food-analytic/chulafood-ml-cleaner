@@ -1,5 +1,7 @@
 # Chula-Food ML Cleaner
 
+<img src="res/workflow.png">
+
 ## Instruction
 
 1) Install required packages and dependencies
