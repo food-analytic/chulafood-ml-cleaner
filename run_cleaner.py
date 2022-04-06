@@ -40,7 +40,7 @@ def main(args):
         model = ChulaFoodNet(len(train_loader.dataset.classes))
 
         if not args.load_model:
-            train_model(model, train_loader, test_loader, config)
+            train_model(model, train_loader, config)
             torch.save(
                 model.state_dict(), os.path.join("models", f"{args.run_name}.pt")
             )
