@@ -34,12 +34,12 @@
    python prepare_folder.py -n <YOUR_SET_NAME>
    ```
    
-   where `<YOUR_SET_NAME>` must exactly match the name of a dataset you have placed on folder `data`.
+   where `<YOUR_SET_NAME>` must exactly match the name of a dataset placed on folder `data`.
 
 
 4) For each class in the dataset, move some amount of cleaned data (e.g., 20) from folder `test` to folder `train`.
    
-   The number of training data per class must be consistent across the dataset.
+   The number of training data in one class must be consistent with other classes in the dataset.
   
   
 5) Run `run_cleaner.py` to bake a new model and get tedious stuff done.
