@@ -50,8 +50,11 @@ def main(args):
             )
 
         confidence = predict_proba(model, test_loader, config)
-        filenames = [image[0].split("/")[-1] for image in test_loader.dataset.imgs]
-        labels = [image[0].split("/")[-2] for image in test_loader.dataset.imgs]
+        filenames = [os.path.basename(image[0]) for image in test_loader.dataset.imgs]
+        labels = [
+            os.path.basename(os.path.dirname(image[0]))
+            for image in test_loader.dataset.imgs
+        ]
 
         df_pred = pd.DataFrame(
             {
