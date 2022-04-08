@@ -2,7 +2,7 @@
 
 <img src="res/workflow.png">
 
-## Instruction
+## Instructions
 
 1) Install required packages and dependencies.
 
