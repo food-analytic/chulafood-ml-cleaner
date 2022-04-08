@@ -3,5 +3,4 @@ pandas
 timm
 torch --find-links https://download.pytorch.org/whl/cu113
 torchvision --find-links https://download.pytorch.org/whl/cu113
-torchvision
 tqdm
