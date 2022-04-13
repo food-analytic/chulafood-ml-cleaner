@@ -6,6 +6,8 @@
 
 ## Instructions
 
+Tested on Python 3.7.13
+
 1) Install required packages and dependencies.
 
     ```shell
