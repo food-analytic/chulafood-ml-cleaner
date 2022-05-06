@@ -1,6 +1,6 @@
 # Chula-Food ML Cleaner
 
-<a href="https://colab.research.google.com/github/Megacodexz/chulafood-ml-cleaner/blob/main/notebooks/ml_cleaner_in_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/food-analytic/chulafood-ml-cleaner/blob/main/notebooks/ml_cleaner_in_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 <img src="res/workflow.png">
 
